@@ -79,7 +79,48 @@ nav li a {
     width: 100%;
 }
 
+/* Main Section Styles */
+main {
+    padding: 0 12.5%;
+}
 
+/* Features Styles */
+.team-section {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.team-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-right: 70px;
+}
+
+.team-title {
+    font-size: 2.8rem;
+}
+
+.team-title .quick-list {
+    font-weight: 500;
+    color: rgb(114, 114, 114);
+}
+
+.team-title .of-our {
+    font-weight: 700;
+    color: rgb(19, 19, 19);
+}
+
+.team-title .text-feature {
+    font-weight: 700;
+    color: rgb(255, 144, 14);
+}
+
+.team-description {
+    margin: 1.5rem 0;
+    color: rgb(114, 114, 114);
+}
 
 /* Responsive Media Queries */
 
