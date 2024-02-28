@@ -165,6 +165,75 @@ main {
     font-weight: 600;
 }
 
+/* Feature Styles */
+.features {
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.feature-content>h3 {
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+    font-weight: 700;
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.feature-content>p {
+    color: rgb(114, 114, 114);
+}
+
+.feature-topic {
+    margin: 20px 0;
+    padding: 30px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.feature-topic>h4 {
+    color: rgb(19, 19, 19);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.feature-topic>p {
+    color: rgb(114, 114, 114);
+    margin-top: 10px;
+}
+
+.feature-img img {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.feature-content {
+    width: 65%;
+}
+
+.ten-year {
+    background-color: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 40px;
+    width: 200px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+}
+
+.ten-year h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.ten-year p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
 
 /* Sponsors Styles */
 .sponsors {
@@ -248,6 +317,22 @@ main {
         flex-direction: column;
         gap: 30px;
     }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature-content>h3 {
+        font-size: 2rem;
+    }
+
+    .feature-content {
+        width: 100%;
+    }
+
+    .feature-topic {
+        width: 100%;
+    }
 }
 
 /* Tablet or Medium devices */
@@ -281,6 +366,10 @@ main {
 
     .team-img {
         margin-bottom: 30px;
+    }
+
+    .features {
+        flex-direction: column;
     }
 
 }
