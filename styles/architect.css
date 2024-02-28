@@ -133,7 +133,7 @@ main {
     font-weight: 700;
 }
 
-.facts p {
+.facts>p {
     color: rgb(114, 114, 114);
     width: 40%;
     margin-left: 0;
@@ -163,6 +163,31 @@ main {
     color: rgb(114, 114, 114);
     font-size: 1.25rem;
     font-weight: 600;
+}
+
+
+/* Sponsors Styles */
+.sponsors {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.sponsors>h3 {
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.sponsors>p {
+    color: rgb(114, 114, 114);
+    margin: 20px auto;
+    width: 50%;
+}
+
+.sponsors-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
 }
 
 /* Responsive Media Queries */
@@ -217,6 +242,11 @@ main {
         text-align: left;
         padding-left: 10%;
         margin-bottom: 30px;
+    }
+
+    .sponsors-img {
+        flex-direction: column;
+        gap: 30px;
     }
 }
 
