@@ -122,6 +122,49 @@ main {
     color: rgb(114, 114, 114);
 }
 
+/* Facts Section */
+.facts {
+    margin-top: 100px;
+}
+
+.facts>h3 {
+    color: rgb(19, 19, 19);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.facts p {
+    color: rgb(114, 114, 114);
+    width: 40%;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.facts-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-container .card {
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.facts-container h2 {
+    color: rgb(66, 66, 66);
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.facts-container p {
+    color: rgb(114, 114, 114);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
 /* Responsive Media Queries */
 
 /* Mobile devices */
@@ -152,6 +195,27 @@ main {
         grid-template-columns: 1fr;
         margin-right: 0;
         margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .facts-container {
+        flex-direction: column;
+    }
+
+    .facts-container .card {
+        margin-top: 20px;
+        width: 50%;
+    }
+
+    .facts h3 {
+        font-size: 2rem;
+        padding-left: 10%;
+    }
+
+    .facts p {
+        width: 80%;
+        text-align: left;
+        padding-left: 10%;
         margin-bottom: 30px;
     }
 }
